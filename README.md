@@ -9,4 +9,5 @@ Just download it like any other plugin, then enable ***termguicolors***.
 
 ## **Screenshot**
 
-![image_1](./src/image_1.png)
+This one below is using [vim-polyglot](https://github.com/sheerun/vim-polyglot) for better appearance.
+![image-1](./src/image_1.png)
