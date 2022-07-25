@@ -6,7 +6,7 @@ if exists("syntax_on")
 endif
 let g:colors_name = "forest"
 
-hi Normal       ctermbg=black       ctermfg=white         guibg=black    guifg=white
+hi Normal       ctermbg=black       ctermfg=white         guibg=black    guifg=#cecece
 hi Comment      term=bold           ctermfg=gray          guifg=gray
 hi Constant     term=underline      ctermfg=green         guifg=#7ed058  gui=NONE
 hi Identifier   term=underline      ctermfg=blue          guifg=#7eaff0
