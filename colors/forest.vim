@@ -31,7 +31,7 @@ hi Question     term=standout       ctermfg=LightGreen    gui=bold       guifg=C
 hi SpecialKey   term=bold           ctermfg=LightBlue     guifg=Cyan
 hi StatusLine   term=reverse,bold   cterm=reverse         gui=NONE       guifg=White       guibg=darkblue
 hi StatusLineNC term=reverse        cterm=reverse         gui=NONE       guifg=#95c4c4     guibg=#333333
-hi Title        term=bold           ctermfg=LightMagenta  gui=bold       guifg=lightblue
+hi Title        term=bold           ctermfg=LightMagenta  gui=bold       guifg=#28a88a
 hi WarningMsg   term=standout       ctermfg=LightRed      guifg=Red
 hi Visual       term=reverse        cterm=reverse         gui=NONE       guifg=white       guibg=grey
 
