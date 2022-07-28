@@ -29,7 +29,7 @@ hi MoreMsg      term=bold           ctermfg=LightGreen    gui=bold       guifg=S
 hi NonText      term=bold           ctermfg=Blue          gui=bold       guifg=gray
 hi Question     term=standout       ctermfg=LightGreen    gui=bold       guifg=Cyan
 hi SpecialKey   term=bold           ctermfg=LightBlue     guifg=Cyan
-hi StatusLine   term=reverse,bold   cterm=reverse         gui=NONE       guifg=White       guibg=darkblue
+hi StatusLine   term=reverse,bold   cterm=reverse         gui=bold       guifg=black       guibg=lightgrey
 hi StatusLineNC term=reverse        cterm=reverse         gui=NONE       guifg=#95c4c4     guibg=#333333
 hi Title        term=bold           ctermfg=LightMagenta  gui=bold       guifg=#28a88a
 hi WarningMsg   term=standout       ctermfg=LightRed      guifg=Red
