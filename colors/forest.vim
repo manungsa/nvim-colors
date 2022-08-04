@@ -17,7 +17,7 @@ hi Special      term=bold           ctermfg=red           guifg=red
 hi Statement    term=bold           ctermfg=lightRed      guifg=#d37bc6  gui=NONE
 hi Type         ctermfg=brown       guifg=#dbae1a         gui=none
 hi Error        term=reverse        ctermbg=Red           ctermfg=White  guibg=orange      guifg=White
-hi Todo         term=standout       ctermbg=Yellow        ctermfg=Black  guibg=lightgray   guifg=black
+hi Todo         term=standout       ctermbg=Yellow        ctermfg=Black  guibg=darkgray   guifg=black
 " From the source:
 hi Cursor       guifg=Orchid        guibg=fg
 hi Directory    term=bold           ctermfg=LightCyan     guifg=Cyan
@@ -34,6 +34,7 @@ hi StatusLineNC term=reverse        cterm=reverse         gui=NONE       guifg=#
 hi Title        term=bold           ctermfg=LightMagenta  gui=bold       guifg=#28a88a
 hi WarningMsg   term=standout       ctermfg=LightRed      guifg=Red
 hi Visual       term=reverse        cterm=reverse         gui=NONE       guifg=white       guibg=grey
+hi Folded	    guifg=lightgray     guibg=#933f2a         ctermfg=darkgrey ctermbg=black   cterm=bold term=bold
 
 hi Pmenu        guifg=lightgray     guibg=#213121
 hi PmenuSel     guifg=white         guibg=green
