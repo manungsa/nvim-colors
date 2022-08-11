@@ -41,3 +41,7 @@ hi PmenuThumb    guifg=black
 hi healthSuccess guibg=#358231       guifg=lightgray
 hi TabLine       gui=bold            guifg=black
 hi NvimInternalError guibg=darkred   guifg=lightgray
+hi DiffAdd gui=bold guibg=#3d491f
+hi DiffChange gui=bold guibg=#4d2d77
+hi DiffDelete gui=bold guibg=#1a5a62 guifg=grey
+hi DiffText guibg=#93662a
