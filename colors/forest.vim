@@ -35,7 +35,7 @@ hi StatusLine        term=reverse,bold   cterm=reverse         gui=NONE       gu
 hi StatusLineNC      term=reverse        cterm=reverse         gui=NONE       guifg=#9ca4b2     guibg=#3a3a3a
 hi Title             term=bold           ctermfg=LightMagenta  gui=bold       guifg=#28a88a
 hi WarningMsg        term=standout       ctermfg=LightRed      guifg=Red
-hi Visual            term=reverse        cterm=reverse         gui=NONE       guifg=lightgray   guibg=#305040
+hi Visual            term=reverse        cterm=reverse         gui=NONE       guifg=lightgray   guibg=#454565
 hi Folded            guifg=lightgray     guibg=#7c4437
 hi Pmenu             guifg=lightgray     guibg=#213121
 hi PmenuSel          guifg=white         guibg=green
