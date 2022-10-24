@@ -41,15 +41,16 @@ hi Visual            term=reverse        cterm=NONE            ctermbg=gray   ct
 hi Folded            guifg=lightgray     guibg=#7c4437
 hi Pmenu             ctermbg=black       ctermfg=white         guifg=lightgray  guibg=#212131
 hi PmenuSel          ctermbg=darkblue    ctermfg=white         guifg=white      guibg=darkblue
-hi PmenuSbar         cterm=NONE          ctermbg=gray          guifg=blue          guibg=darkgray
+hi PmenuSbar         cterm=NONE          ctermbg=gray          guifg=blue       guibg=darkgray
 hi PmenuThumb        cterm=NONE          ctermbg=white         guifg=black
 hi healthSuccess     guibg=#358231       guifg=lightgray
 hi TabLine           gui=NONE            guifg=black
 hi NvimInternalError guibg=darkred       guifg=lightgray
 hi DiffAdd           gui=bold            guibg=#3d491f
-hi DiffChange        gui=NONE            guibg=#003336
-hi DiffDelete        gui=NONE            guibg=#773333         guifg=darkgrey
+hi DiffChange        cterm=NONE          gui=NONE              ctermbg=NONE   ctermfg=cyan  guibg=#003336
+hi DiffDelete        gui=NONE            guibg=#773333         guifg=green
 hi DiffText          gui=bold            guibg=#5b342c
 hi netrwExe          cterm=NONE          ctermfg=green         gui=NONE       guifg=#7ed058
+hi MatchParen        cterm=NONE          gui=NONE              guibg=gray
 
 hi link              WinSeparator        StatusLine
