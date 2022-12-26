@@ -7,7 +7,7 @@ endif
 let g:colors_name = "forest1"
 
 hi Normal            ctermbg=black       ctermfg=white         guibg=black    guifg=lightgray
-hi Comment           term=NONE           ctermfg=gray          guifg=gray
+hi Comment           term=NONE           ctermfg=gray          guifg=darkgray
 hi Constant          term=NONE           ctermfg=darkgreen     guifg=#7ed058  gui=NONE
 hi Identifier        term=NONE           cterm=NONE            ctermfg=blue   guifg=#7eaff0
 hi Ignore            ctermfg=black       guifg=bg
@@ -17,7 +17,7 @@ hi Special           term=NONE           cterm=NONE            ctermfg=red    gu
 hi Statement         term=NONE           ctermfg=magenta       guifg=#d37bc6  gui=NONE
 hi Type              ctermfg=darkyellow  gui=NONE              guifg=#dbae1a
 hi Error             term=reverse        ctermbg=Red           ctermfg=White  guibg=brown       guifg=lightgray
-hi Todo              term=standout       ctermbg=Yellow        ctermfg=Black  guibg=yellow      guifg=black
+hi Todo              term=standout       ctermbg=NONE          ctermfg=Yellow  guibg=NONE      guifg=Yellow
 hi Cursor            guifg=orchid        guibg=fg
 hi CursorColumn      guibg=#404040
 hi CursorLine        guibg=#404040
