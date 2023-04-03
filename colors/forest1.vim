@@ -1,4 +1,4 @@
-" by: manungsa
+" by: manungsa@Github
 hi clear
 set background=dark
 if exists("syntax_on")

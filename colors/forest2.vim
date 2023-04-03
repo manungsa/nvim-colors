@@ -1,5 +1,5 @@
 " just a remix of forest1, with some change to the color
-" by: manungsa
+" by: manungsa@GitHub
 hi clear
 set background=dark
 if exists("syntax_on")
