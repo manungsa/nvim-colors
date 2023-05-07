@@ -18,7 +18,8 @@ hi Special term=NONE cterm=NONE ctermfg=red guifg=#8496a9
 hi Identifier term=NONE cterm=NONE gui=NONE ctermfg=magenta guifg=#60b0a0
 hi PreProc gui=NONE ctermfg=darkyellow guifg=#8f6faf
 hi Error term=reverse ctermbg=Red ctermfg=White guibg=#580923 guifg=lightgray
-hi ErrorMsg term=standout ctermbg=DarkRed ctermfg=White
+hi ErrorMsg term=standout ctermbg=DarkRed ctermfg=White guibg=#72132d
+	\ guifg=lightgray
 hi NvimInternalError guibg=darkred guifg=lightgray
 hi Todo term=standout ctermbg=NONE ctermfg=Yellow guibg=NONE guifg=#c0cd69
 hi Cursor guifg=orchid guibg=fg
@@ -26,7 +27,6 @@ hi CursorColumn guibg=#343434
 hi CursorLine guibg=#343434
 hi CursorLineNr cterm=NONE ctermfg=blue gui=NONE guifg=orange
 hi Directory term=NONE cterm=NONE gui=NONE ctermfg=blue guifg=lightblue
-	\ guibg=#72132d guifg=lightgray
 hi IncSearch term=reverse cterm=reverse gui=reverse
 hi LineNr term=NONE ctermfg=gray guifg=#4f4f4f
 hi ModeMsg term=NONE cterm=NONE gui=NONE
