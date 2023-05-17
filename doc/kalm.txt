@@ -1,0 +1,24 @@
+*kalm*  A kalm and nice colorscheme plugin
+
+==============================================================================
+Introduction
+
+This is just a colorscheme that I created myself. That's it.
+
+==============================================================================
+Available Options						*kalm-options*
+
+- *g:kalm_transparent_bg*
+  Set to 0 or 1 to disable and enabling it
+
+*Note 
+When setting an option, put all lines containing the option above the
+`colorscheme` call, such as: >
+
+	let g:kalm_transparent_bg = 1
+	colorscheme kalm
+<
+
+I hope you like this plugin :).
+
+vim:ft=help

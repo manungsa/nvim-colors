@@ -1,0 +1,10 @@
+*forest2*  Modified version of forest1
+
+==============================================================================
+Introduction
+
+Just a little bit of modification to (imo) make the colors better
+
+I hope you like this plugin :).
+
+vim:ft=help

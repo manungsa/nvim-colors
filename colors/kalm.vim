@@ -7,24 +7,32 @@ if exists("syntax_on")
 endif
 let g:colors_name = "kalm"
 
-hi Normal ctermbg=black ctermfg=white guibg=#080a0c guifg=lightgray
+if !exists('g:kalm_transparent_bg')
+	let g:kalm_transparent_bg = 0
+endif
+
+hi Normal ctermbg=black ctermfg=white guifg=#b8b8b8
+
+if g:kalm_transparent_bg == 0
+	hi Normal guibg=#080a0c
+endif
+
 hi Comment term=NONE ctermfg=gray guifg=#6f6f6f
 hi Type term=NONE gui=NONE ctermfg=darkblue guifg=#5a91a3
-hi Statement term=NONE cterm=NONE gui=NONE ctermfg=darkgreen guifg=#9eb063
+hi Statement term=NONE cterm=NONE gui=NONE ctermfg=darkgreen guifg=#9e9063
 hi Ignore ctermfg=black guifg=bg
-hi Constant term=NONE ctermfg=darkgreen guifg=#5aa36c
+hi Constant term=NONE ctermfg=darkgreen guifg=#6aa36c
 hi Search term=NONE guifg=lightgray guibg=#273545
-hi Special term=NONE cterm=NONE ctermfg=red guifg=#8496a9
-hi Identifier term=NONE cterm=NONE gui=NONE ctermfg=magenta guifg=#60b0a0
-hi PreProc gui=NONE ctermfg=darkyellow guifg=#8f6faf
+hi Special term=NONE cterm=NONE ctermfg=red guifg=#728694
+hi Identifier term=NONE cterm=NONE gui=NONE ctermfg=magenta guifg=#80a690
+hi PreProc gui=NONE ctermfg=darkyellow guifg=#8f7faf
 hi Error term=reverse ctermbg=Red ctermfg=White guibg=#580923 guifg=lightgray
 hi ErrorMsg term=standout ctermbg=DarkRed ctermfg=White guibg=#72132d
 	\ guifg=lightgray
 hi NvimInternalError guibg=darkred guifg=lightgray
 hi Todo term=standout ctermbg=NONE ctermfg=Yellow guibg=NONE guifg=#c0cd69
 hi Cursor guifg=orchid guibg=fg
-hi CursorColumn guibg=#343434
-hi CursorLine guibg=#343434
+hi CursorLine guibg=#383838
 hi CursorLineNr cterm=NONE ctermfg=blue gui=NONE guifg=orange
 hi Directory term=NONE cterm=NONE gui=NONE ctermfg=blue guifg=lightblue
 hi IncSearch term=reverse cterm=reverse gui=reverse
@@ -42,7 +50,7 @@ hi Title term=NONE gui=NONE ctermfg=darkgreen guifg=#28a88a
 hi WarningMsg term=standout ctermfg=LightRed guifg=#d00000
 hi WildMenu gui=NONE guibg=#a0a374 guifg=black
 hi Visual term=reverse cterm=NONE gui=NONE ctermbg=gray ctermfg=black
-	\ guifg=lightgray guibg=#102820
+	\ guifg=#b6b6b6 guibg=#1c2c2c
 hi Folded guifg=lightgray guibg=#4c2437
 hi Pmenu ctermbg=black ctermfg=white guifg=lightgray guibg=#00121d
 hi PmenuSel ctermbg=darkblue ctermfg=white guifg=white guibg=#25375a
@@ -58,10 +66,14 @@ hi DiffChange cterm=NONE gui=NONE ctermbg=NONE ctermfg=cyan guibg=#001326
 hi DiffDelete gui=NONE guibg=#674333 guifg=darkgray
 hi DiffText cterm=NONE gui=NONE ctermfg=white guibg=#083838
 hi netrwExe cterm=NONE ctermfg=green gui=NONE guifg=#7ed058
+hi netrwMarkFile guibg=#384a2d
 hi MatchParen cterm=NONE gui=NONE ctermbg=gray guibg=#556639 guifg=lightgray
 hi SignColumn cterm=NONE gui=NONE ctermbg=gray guibg=#11333b guifg=#9f8f7f
-hi Colorcolumn cterm=NONE gui=NONE ctermbg=brown ctermfg=gray guibg=#54262b
+hi Colorcolumn cterm=NONE gui=NONE ctermbg=brown ctermfg=gray guibg=#404040
 	\ guifg=yellow
+hi Underlined guifg=#2f7f9a
 
 hi! link WinSeparator StatusLine
 hi! link FoldColumn SignColumn
+hi! link tutorLink Underlined
+hi! link CursorColumn CursorLine

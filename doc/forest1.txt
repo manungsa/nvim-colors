@@ -1,0 +1,10 @@
+*forest1*  My first colorscheme
+
+==============================================================================
+Introduction
+
+My first colorscheme. Didn't look so great tbh.
+
+I hope you like this plugin :).
+
+vim:ft=help
